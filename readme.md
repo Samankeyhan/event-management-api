@@ -37,11 +37,13 @@ This is a simple REST API for managing events that I created as a learning proje
    cd event-manager-api
    ```
 2. Install dependencies:
+   ```bash
    go mod tidy
-
-3. Run the application:
+   ```
+4. Run the application:
+   ```bash
    go run main.go
-
+   ```
 Access the API at http://localhost:8080.
 
 #### 5. **API Endpoints**
